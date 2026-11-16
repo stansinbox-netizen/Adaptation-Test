@@ -11,10 +11,22 @@
           "emoji": "🐻‍❄️",
           "environment": "Freezing ice and cold sea water in the far north.",
           "adaptations": [
-            { "feature": "Thick fat (blubber)", "why": "A layer of fat up to 10 cm thick keeps the bear warm in icy water." },
-            { "feature": "White-looking fur", "why": "Helps it hide in the snow so it can sneak up on seals." },
-            { "feature": "Black skin", "why": "Dark skin soaks up heat from the sun." },
-            { "feature": "Big, wide paws", "why": "Spread its weight so it does not fall through thin ice, and work like paddles for swimming." }
+            {
+              "feature": "Thick fat (blubber)",
+              "why": "A layer of fat up to 10 cm thick keeps the bear warm in icy water."
+            },
+            {
+              "feature": "White-looking fur",
+              "why": "Helps it hide in the snow so it can sneak up on seals."
+            },
+            {
+              "feature": "Black skin",
+              "why": "Dark skin soaks up heat from the sun."
+            },
+            {
+              "feature": "Big, wide paws",
+              "why": "Spread its weight so it does not fall through thin ice, and work like paddles for swimming."
+            }
           ],
           "wonder": "Why do you think polar bears have small ears?"
         },
@@ -23,10 +35,22 @@
           "emoji": "🦊",
           "environment": "Snowy tundra that turns brown and rocky in summer.",
           "adaptations": [
-            { "feature": "Fur that changes colour", "why": "White in winter and brown in summer, so it is always camouflaged." },
-            { "feature": "Furry feet", "why": "Fur on the bottom of its paws keeps its feet warm on the ice." },
-            { "feature": "Bushy tail", "why": "It wraps its tail around its body like a blanket when it sleeps." },
-            { "feature": "Amazing hearing", "why": "It can hear small animals moving under the snow." }
+            {
+              "feature": "Fur that changes colour",
+              "why": "White in winter and brown in summer, so it is always camouflaged."
+            },
+            {
+              "feature": "Furry feet",
+              "why": "Fur on the bottom of its paws keeps its feet warm on the ice."
+            },
+            {
+              "feature": "Bushy tail",
+              "why": "It wraps its tail around its body like a blanket when it sleeps."
+            },
+            {
+              "feature": "Amazing hearing",
+              "why": "It can hear small animals moving under the snow."
+            }
           ],
           "wonder": "What might happen to an arctic fox if the snow came late one year?"
         },
@@ -35,11 +59,68 @@
           "emoji": "🦭",
           "environment": "Cold Arctic seas and floating ice.",
           "adaptations": [
-            { "feature": "Long tusks", "why": "Used like hooks to pull its heavy body out of the water onto the ice." },
-            { "feature": "Sensitive whiskers", "why": "Help it feel for clams in the dark mud on the sea floor." },
-            { "feature": "Thick blubber", "why": "Keeps it warm in freezing water." }
+            {
+              "feature": "Long tusks",
+              "why": "Used like hooks to pull its heavy body out of the water onto the ice."
+            },
+            {
+              "feature": "Sensitive whiskers",
+              "why": "Help it feel for clams in the dark mud on the sea floor."
+            },
+            {
+              "feature": "Thick blubber",
+              "why": "Keeps it warm in freezing water."
+            }
           ],
           "wonder": "How are the walrus and the polar bear the same?"
+        },
+        {
+          "name": "Snowy Owl",
+          "emoji": "🦉",
+          "environment": "Open, treeless Arctic tundra.",
+          "adaptations": [
+            {
+              "feature": "Feathered feet",
+              "why": "Thick feathers cover its feet like warm slippers."
+            },
+            {
+              "feature": "White feathers",
+              "why": "Help it hide against the snow."
+            },
+            {
+              "feature": "Excellent hearing",
+              "why": "Lets it find lemmings moving under the snow."
+            },
+            {
+              "feature": "Hunting in daylight",
+              "why": "It can hunt during the long summer days when the sun never sets."
+            }
+          ],
+          "wonder": "Most owls hunt at night. Why might a snowy owl hunt in the day?"
+        },
+        {
+          "name": "Narwhal",
+          "emoji": "🐋",
+          "environment": "Icy Arctic waters, often under sea ice.",
+          "adaptations": [
+            {
+              "feature": "Long tusk",
+              "why": "A long tooth that can sense changes in the water around it."
+            },
+            {
+              "feature": "Thick blubber",
+              "why": "Keeps it warm in freezing water."
+            },
+            {
+              "feature": "No back fin",
+              "why": "Lets it swim close under the ice without getting hurt."
+            },
+            {
+              "feature": "Deep diving",
+              "why": "Can dive very deep to find fish and squid."
+            }
+          ],
+          "wonder": "Why would a fin on its back be a problem for a narwhal?"
         }
       ]
     },
@@ -54,10 +135,22 @@
           "emoji": "🐪",
           "environment": "Hot, dry, sandy deserts with very little water or food.",
           "adaptations": [
-            { "feature": "Hump full of fat", "why": "Stores energy so the camel can go a long time without food." },
-            { "feature": "Long eyelashes", "why": "Two rows of eyelashes keep sand out of its eyes." },
-            { "feature": "Nostrils that close", "why": "It can shut its nose during sandstorms." },
-            { "feature": "Wide, flat feet", "why": "Stop it from sinking into soft sand." }
+            {
+              "feature": "Hump full of fat",
+              "why": "Stores energy so the camel can go a long time without food."
+            },
+            {
+              "feature": "Long eyelashes",
+              "why": "Two rows of eyelashes keep sand out of its eyes."
+            },
+            {
+              "feature": "Nostrils that close",
+              "why": "It can shut its nose during sandstorms."
+            },
+            {
+              "feature": "Wide, flat feet",
+              "why": "Stop it from sinking into soft sand."
+            }
           ],
           "wonder": "Does a camel's hump hold water? How could you find out?"
         },
@@ -66,10 +159,22 @@
           "emoji": "🦊",
           "environment": "The Sahara Desert, very hot in the day and cold at night.",
           "adaptations": [
-            { "feature": "Giant ears", "why": "Let heat escape from its body to keep it cool, and help it hear insects underground." },
-            { "feature": "Sandy-coloured fur", "why": "Camouflage in the sand." },
-            { "feature": "Nocturnal", "why": "It is active at night when it is cooler, and sleeps in a burrow during the hot day." },
-            { "feature": "Furry feet", "why": "Protect its feet from the burning hot sand." }
+            {
+              "feature": "Giant ears",
+              "why": "Let heat escape from its body to keep it cool, and help it hear insects underground."
+            },
+            {
+              "feature": "Sandy-coloured fur",
+              "why": "Camouflage in the sand."
+            },
+            {
+              "feature": "Nocturnal",
+              "why": "It is active at night when it is cooler, and sleeps in a burrow during the hot day."
+            },
+            {
+              "feature": "Furry feet",
+              "why": "Protect its feet from the burning hot sand."
+            }
           ],
           "wonder": "Compare the fennec fox's ears with the arctic fox's ears. Why are they different?"
         },
@@ -78,11 +183,64 @@
           "emoji": "🦎",
           "environment": "Dry, sandy deserts of Australia.",
           "adaptations": [
-            { "feature": "Spiky skin", "why": "Sharp spikes make it hard for predators to eat." },
-            { "feature": "Water-collecting skin", "why": "Tiny grooves in its skin carry dew and water straight to its mouth." },
-            { "feature": "False head", "why": "A bump on its neck tricks predators into biting the wrong place." }
+            {
+              "feature": "Spiky skin",
+              "why": "Sharp spikes make it hard for predators to eat."
+            },
+            {
+              "feature": "Water-collecting skin",
+              "why": "Tiny grooves in its skin carry dew and water straight to its mouth."
+            },
+            {
+              "feature": "False head",
+              "why": "A bump on its neck tricks predators into biting the wrong place."
+            }
           ],
           "wonder": "How else could an animal get water in a desert?"
+        },
+        {
+          "name": "Scorpion",
+          "emoji": "🦂",
+          "environment": "Hot, dry deserts all over the world.",
+          "adaptations": [
+            {
+              "feature": "Hard outer shell",
+              "why": "A waxy covering stops its body from losing water."
+            },
+            {
+              "feature": "Stinger on its tail",
+              "why": "Used to catch food and protect itself."
+            },
+            {
+              "feature": "Nocturnal",
+              "why": "Hides under rocks in the day and comes out in the cool night."
+            },
+            {
+              "feature": "Needs very little food",
+              "why": "Can survive for months without eating."
+            }
+          ],
+          "wonder": "Why is hiding under a rock a good idea in the desert?"
+        },
+        {
+          "name": "Roadrunner",
+          "emoji": "🐦",
+          "environment": "Dry deserts of North America.",
+          "adaptations": [
+            {
+              "feature": "Fast running",
+              "why": "Can run very fast to catch lizards and escape predators."
+            },
+            {
+              "feature": "Gets water from food",
+              "why": "Gets most of the water it needs from the animals it eats."
+            },
+            {
+              "feature": "Sunbathing",
+              "why": "Spreads its feathers in the morning sun to warm up after a cold night."
+            }
+          ],
+          "wonder": "Why would a desert bird need to warm up in the morning?"
         }
       ]
     },
@@ -97,9 +255,18 @@
           "emoji": "🦥",
           "environment": "High up in the trees of the rainforest.",
           "adaptations": [
-            { "feature": "Long, curved claws", "why": "Hook onto branches so it can hang upside down, even when asleep." },
-            { "feature": "Moving very slowly", "why": "Saves energy because its leafy food has little energy in it." },
-            { "feature": "Green algae in its fur", "why": "Tiny plants grow in its fur and help it blend in with the trees." }
+            {
+              "feature": "Long, curved claws",
+              "why": "Hook onto branches so it can hang upside down, even when asleep."
+            },
+            {
+              "feature": "Moving very slowly",
+              "why": "Saves energy because its leafy food has little energy in it."
+            },
+            {
+              "feature": "Green algae in its fur",
+              "why": "Tiny plants grow in its fur and help it blend in with the trees."
+            }
           ],
           "wonder": "Why might being slow actually help a sloth stay safe?"
         },
@@ -108,9 +275,18 @@
           "emoji": "🦜",
           "environment": "The treetops of rainforests in South America.",
           "adaptations": [
-            { "feature": "Huge, light beak", "why": "Reaches fruit on thin branches that cannot hold its weight." },
-            { "feature": "Beak that releases heat", "why": "Helps it cool down in the hot rainforest." },
-            { "feature": "Bright colours", "why": "Help toucans find each other among the colourful leaves and flowers." }
+            {
+              "feature": "Huge, light beak",
+              "why": "Reaches fruit on thin branches that cannot hold its weight."
+            },
+            {
+              "feature": "Beak that releases heat",
+              "why": "Helps it cool down in the hot rainforest."
+            },
+            {
+              "feature": "Bright colours",
+              "why": "Help toucans find each other among the colourful leaves and flowers."
+            }
           ],
           "wonder": "What other animals have beaks shaped for the food they eat?"
         },
@@ -119,11 +295,60 @@
           "emoji": "🐸",
           "environment": "The damp rainforest floor in Central and South America.",
           "adaptations": [
-            { "feature": "Bright colours", "why": "Warn predators: 'Don't eat me, I am poisonous!'" },
-            { "feature": "Poison in its skin", "why": "Keeps it safe from animals that want to eat it." },
-            { "feature": "Sticky toe pads", "why": "Help it climb on wet leaves." }
+            {
+              "feature": "Bright colours",
+              "why": "Warn predators: 'Don't eat me, I am poisonous!'"
+            },
+            {
+              "feature": "Poison in its skin",
+              "why": "Keeps it safe from animals that want to eat it."
+            },
+            {
+              "feature": "Sticky toe pads",
+              "why": "Help it climb on wet leaves."
+            }
           ],
           "wonder": "Why do some animals hide, but this frog wants to be seen?"
+        },
+        {
+          "name": "Jaguar",
+          "emoji": "🐆",
+          "environment": "Thick rainforests of Central and South America.",
+          "adaptations": [
+            {
+              "feature": "Spotted coat",
+              "why": "Spots blend in with the light and shadows on the forest floor."
+            },
+            {
+              "feature": "Strong jaws",
+              "why": "Have a very powerful bite to catch its prey."
+            },
+            {
+              "feature": "Good swimmer",
+              "why": "Can hunt fish and turtles in rivers."
+            }
+          ],
+          "wonder": "How do a jaguar's spots help it hunt?"
+        },
+        {
+          "name": "Orangutan",
+          "emoji": "🦧",
+          "environment": "High in the rainforest trees of Borneo and Sumatra.",
+          "adaptations": [
+            {
+              "feature": "Very long arms",
+              "why": "Help it swing and reach between branches."
+            },
+            {
+              "feature": "Hook-shaped hands and feet",
+              "why": "Grip branches tightly, so it can hold on with all four limbs."
+            },
+            {
+              "feature": "Leaf nests",
+              "why": "Builds a new bed of leaves high in the trees every night."
+            }
+          ],
+          "wonder": "Why might an orangutan sleep in the trees instead of on the ground?"
         }
       ]
     },
@@ -138,10 +363,22 @@
           "emoji": "🦈",
           "environment": "Oceans all around the world.",
           "adaptations": [
-            { "feature": "Streamlined body", "why": "Its smooth shape helps it swim fast through the water." },
-            { "feature": "Gills", "why": "Take oxygen out of the water so it can breathe." },
-            { "feature": "Rows of teeth", "why": "When a tooth falls out, a new one moves forward to replace it." },
-            { "feature": "Super sense of smell", "why": "Helps it find food from far away." }
+            {
+              "feature": "Streamlined body",
+              "why": "Its smooth shape helps it swim fast through the water."
+            },
+            {
+              "feature": "Gills",
+              "why": "Take oxygen out of the water so it can breathe."
+            },
+            {
+              "feature": "Rows of teeth",
+              "why": "When a tooth falls out, a new one moves forward to replace it."
+            },
+            {
+              "feature": "Super sense of smell",
+              "why": "Helps it find food from far away."
+            }
           ],
           "wonder": "Why are many fast swimmers shaped like a shark?"
         },
@@ -150,10 +387,22 @@
           "emoji": "🐙",
           "environment": "Rocky sea floors and coral reefs.",
           "adaptations": [
-            { "feature": "Colour-changing skin", "why": "Can change colour in less than a second to hide." },
-            { "feature": "Ink", "why": "Squirts a dark cloud to confuse predators while it escapes." },
-            { "feature": "No bones", "why": "Can squeeze into tiny cracks to hide." },
-            { "feature": "Suckers on its arms", "why": "Grip rocks and catch food." }
+            {
+              "feature": "Colour-changing skin",
+              "why": "Can change colour in less than a second to hide."
+            },
+            {
+              "feature": "Ink",
+              "why": "Squirts a dark cloud to confuse predators while it escapes."
+            },
+            {
+              "feature": "No bones",
+              "why": "Can squeeze into tiny cracks to hide."
+            },
+            {
+              "feature": "Suckers on its arms",
+              "why": "Grip rocks and catch food."
+            }
           ],
           "wonder": "Which adaptation would you most like to have? Why?"
         },
@@ -162,12 +411,68 @@
           "emoji": "🐢",
           "environment": "Warm oceans; they come onto beaches to lay eggs.",
           "adaptations": [
-            { "feature": "Flippers", "why": "Strong flippers work like paddles for swimming long distances." },
-            { "feature": "Hard shell", "why": "Protects its body from predators." },
-            { "feature": "Holding its breath", "why": "Can stay underwater for a long time while resting." },
-            { "feature": "Salt glands", "why": "Special 'tears' remove extra salt from its body." }
+            {
+              "feature": "Flippers",
+              "why": "Strong flippers work like paddles for swimming long distances."
+            },
+            {
+              "feature": "Hard shell",
+              "why": "Protects its body from predators."
+            },
+            {
+              "feature": "Holding its breath",
+              "why": "Can stay underwater for a long time while resting."
+            },
+            {
+              "feature": "Salt glands",
+              "why": "Special 'tears' remove extra salt from its body."
+            }
           ],
           "wonder": "How are a sea turtle's flippers different from a tortoise's legs?"
+        },
+        {
+          "name": "Jellyfish",
+          "emoji": "🪼",
+          "environment": "Oceans all over the world, from the surface to the deep sea.",
+          "adaptations": [
+            {
+              "feature": "Stinging tentacles",
+              "why": "Tiny stingers catch small animals for food."
+            },
+            {
+              "feature": "See-through body",
+              "why": "Makes it hard for predators to see."
+            },
+            {
+              "feature": "Floating body",
+              "why": "Drifts with the ocean currents to save energy."
+            }
+          ],
+          "wonder": "A jellyfish has no brain. How do you think it survives?"
+        },
+        {
+          "name": "Dolphin",
+          "emoji": "🐬",
+          "environment": "Warm and cool oceans all around the world.",
+          "adaptations": [
+            {
+              "feature": "Blowhole",
+              "why": "Breathes air through a hole on top of its head."
+            },
+            {
+              "feature": "Echolocation",
+              "why": "Makes clicks and listens for echoes to find food."
+            },
+            {
+              "feature": "Streamlined body",
+              "why": "Its smooth shape helps it swim fast."
+            },
+            {
+              "feature": "Living in groups",
+              "why": "Pods work together to hunt and stay safe."
+            }
+          ],
+          "wonder": "How are a dolphin and a shark the same? How are they different?"
         }
       ]
     }
