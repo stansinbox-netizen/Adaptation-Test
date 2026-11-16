@@ -1,96 +1,192 @@
+/* Soft, rounded "frosted glass" style with a lime accent — light theme */
 :root {
-  --bg: #fdf8ee;
-  --ink: #2b2b2b;
-  --muted: #5d5d5d;
-  --card: #ffffff;
-  --accent: #2e7d5b;
-  --arctic: #d9eefc;
-  --desert: #fbe3b8;
-  --rainforest: #cdeccf;
-  --ocean: #c6e2f5;
+  --bg: #f6f7f2;
+  --ink: #141414;
+  --muted: #5b5f57;
+  --lime: #e2fc8b;
+  --lime-deep: #c8ec4a;
+  --glass: rgba(255, 255, 255, 0.62);
+  --glass-border: rgba(255, 255, 255, 0.85);
+  --shadow: 0 10px 30px rgba(20, 20, 20, 0.08);
+  --radius-xl: 36px;
+  --radius-lg: 24px;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: "Comic Sans MS", "Chalkboard SE", "Segoe UI", Arial, sans-serif;
+  font-family: "Lexend", "Segoe UI", Arial, sans-serif;
   background: var(--bg);
   color: var(--ink);
   line-height: 1.5;
 }
 
+/* ---------- Header: big lime hero ---------- */
 header {
+  background: var(--lime);
+  margin: 16px;
+  border-radius: var(--radius-xl);
+  padding: 32px 24px 40px;
   text-align: center;
-  padding: 24px 16px 8px;
+  position: relative;
+  overflow: hidden;
 }
-h1 { margin: 0; font-size: clamp(1.8rem, 5vw, 2.8rem); color: var(--accent); }
-.subtitle { font-size: 1.2rem; color: var(--muted); margin: 8px 0 0; }
+header::before, header::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.55;
+  pointer-events: none;
+}
+header::before { width: 260px; height: 260px; background: #fff; top: -90px; left: -60px; }
+header::after  { width: 220px; height: 220px; background: var(--lime-deep); bottom: -100px; right: -40px; }
 
-/* Habitat filter buttons */
+.badge {
+  position: relative;
+  display: inline-block;
+  background: rgba(20, 20, 20, 0.08);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.greeting {
+  position: relative;
+  margin: 20px 0 4px;
+  font-size: 1.1rem;
+  color: #3a3f2c;
+}
+h1 {
+  position: relative;
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+.subtitle {
+  position: relative;
+  font-size: 1.15rem;
+  color: #3a3f2c;
+  margin: 12px auto 0;
+  max-width: 34ch;
+}
+
+/* ---------- Habitat filter: pill buttons ---------- */
 #habitat-filter {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  padding: 16px;
+  padding: 8px 16px 20px;
 }
 #habitat-filter button {
   font: inherit;
   font-size: 1.05rem;
-  padding: 8px 18px;
-  border: 3px solid var(--accent);
+  font-weight: 500;
+  padding: 12px 22px;
+  min-height: 48px;
+  border: none;
   border-radius: 999px;
   background: #fff;
-  color: var(--accent);
+  color: var(--ink);
   cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, background 0.15s ease;
 }
-#habitat-filter button.active { background: var(--accent); color: #fff; }
+#habitat-filter button:hover { transform: translateY(-2px); }
+#habitat-filter button.active { background: var(--ink); color: var(--lime); }
+#habitat-filter button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 
-/* Habitat sections */
+/* ---------- Habitat sections: rounded cards with soft blurry colour ---------- */
 main { max-width: 1100px; margin: 0 auto; padding: 0 16px 24px; }
-.habitat {
-  border-radius: 20px;
-  padding: 16px 20px 24px;
-  margin-bottom: 24px;
-}
-.habitat[data-id="arctic"]     { background: var(--arctic); }
-.habitat[data-id="desert"]     { background: var(--desert); }
-.habitat[data-id="rainforest"] { background: var(--rainforest); }
-.habitat[data-id="ocean"]      { background: var(--ocean); }
 
-.habitat h2 { margin: 0; font-size: 1.8rem; }
-.habitat-desc { margin: 4px 0 16px; color: var(--muted); font-size: 1.1rem; }
+.habitat {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  padding: 28px 24px 28px;
+  margin-bottom: 24px;
+  isolation: isolate;
+}
+.habitat::before {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  z-index: -1;
+  filter: blur(50px);
+}
+.habitat[data-id="arctic"]::before {
+  background: radial-gradient(circle at 20% 20%, #ffffff 0, transparent 45%),
+              radial-gradient(circle at 80% 70%, #a9d6f5 0, transparent 55%), #dcecf7;
+}
+.habitat[data-id="desert"]::before {
+  background: radial-gradient(circle at 25% 30%, #fff1d2 0, transparent 45%),
+              radial-gradient(circle at 75% 75%, #f6b97a 0, transparent 55%), #fbe2c2;
+}
+.habitat[data-id="rainforest"]::before {
+  background: radial-gradient(circle at 20% 25%, #e9f8c8 0, transparent 45%),
+              radial-gradient(circle at 80% 70%, #8fd19e 0, transparent 55%), #cfeccf;
+}
+.habitat[data-id="ocean"]::before {
+  background: radial-gradient(circle at 25% 25%, #d9f4f7 0, transparent 45%),
+              radial-gradient(circle at 75% 75%, #7fb9e0 0, transparent 55%), #c7e2f2;
+}
+
+.habitat h2 {
+  margin: 0;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.habitat-desc { margin: 4px 0 20px; color: #33372f; font-size: 1.1rem; }
 
 .animal-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 16px;
+  gap: 14px;
 }
 
+/* Frosted glass animal cards */
 .animal-card {
   font: inherit;
-  background: var(--card);
-  border: none;
-  border-radius: 18px;
-  padding: 16px 8px;
+  color: var(--ink);
+  background: var(--glass);
+  border: 1.5px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 18px 10px 16px;
   cursor: pointer;
-  box-shadow: 0 4px 0 rgba(0,0,0,0.12);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+  transition: transform 0.18s ease, background 0.18s ease;
 }
 .animal-card:hover, .animal-card:focus-visible {
-  transform: translateY(-4px) scale(1.04);
-  box-shadow: 0 8px 0 rgba(0,0,0,0.12);
+  transform: translateY(-4px) scale(1.03);
+  background: rgba(255, 255, 255, 0.85);
   outline: none;
 }
-.animal-card .emoji { font-size: 4rem; display: block; }
-.animal-card .name { font-size: 1.15rem; font-weight: bold; }
+.animal-card:focus-visible { box-shadow: 0 0 0 3px var(--ink); }
+.animal-card .emoji {
+  display: grid;
+  place-items: center;
+  width: 84px; height: 84px;
+  margin: 0 auto 10px;
+  font-size: 3rem;
+  background: #fff;
+  border-radius: 50%;
+}
+.animal-card .name { font-size: 1.1rem; font-weight: 600; }
 
-/* Pop-up */
+/* ---------- Pop-up ---------- */
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(240, 243, 232, 0.6);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,64 +198,123 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 16px 24px; }
 .modal-box {
   position: relative;
   background: #fff;
-  border-radius: 24px;
+  border-radius: var(--radius-xl);
   max-width: 600px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
-  padding: 24px 28px;
+  padding: 28px 28px 24px;
+  box-shadow: 0 30px 60px rgba(20, 20, 20, 0.15);
   animation: pop 0.25s ease-out;
 }
 @keyframes pop {
-  from { transform: scale(0.8); opacity: 0; }
-  to   { transform: scale(1);   opacity: 1; }
+  from { transform: translateY(20px) scale(0.96); opacity: 0; }
+  to   { transform: none; opacity: 1; }
 }
 
 .close-btn {
   position: absolute;
-  top: 12px; right: 12px;
+  top: 16px; right: 16px;
   width: 44px; height: 44px;
   border-radius: 50%;
   border: none;
-  background: #eee;
-  font-size: 1.3rem;
+  background: #f0f1ec;
+  color: var(--ink);
+  font-size: 1.1rem;
   cursor: pointer;
 }
-.close-btn:hover { background: #ddd; }
+.close-btn:hover { background: #e3e5dc; }
 
-.modal-emoji { font-size: 5rem; text-align: center; }
-.modal-box h2 { text-align: center; margin: 0; font-size: 2rem; color: var(--accent); }
-.modal-habitat { text-align: center; margin: 0 0 12px; color: var(--muted); }
+.modal-emoji {
+  display: grid;
+  place-items: center;
+  width: 110px; height: 110px;
+  margin: 0 auto 12px;
+  font-size: 4rem;
+  background: var(--lime);
+  border-radius: 50%;
+}
+.modal-box h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.modal-habitat {
+  display: table;
+  margin: 8px auto 16px;
+  background: #f0f1ec;
+  border-radius: 999px;
+  padding: 4px 14px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 .modal-env { font-size: 1.1rem; }
-.modal-box h3 { margin-bottom: 8px; }
+.modal-box h3 { margin: 20px 0 12px; font-size: 1.3rem; font-weight: 600; }
 
-.adaptation-list { list-style: none; padding: 0; margin: 0; }
+/* Adaptations shown as a timeline with dots */
+.adaptation-list { list-style: none; padding: 0; margin: 0; position: relative; }
 .adaptation-list li {
-  background: #f3f8f5;
-  border-left: 6px solid var(--accent);
-  border-radius: 10px;
-  padding: 10px 14px;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
+  position: relative;
+  padding: 0 0 18px 44px;
+  font-size: 1.05rem;
+  color: var(--muted);
 }
-.adaptation-list strong { display: block; }
+.adaptation-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0; top: 0;
+  width: 30px; height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--lime);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: 2px solid var(--ink);
+}
+.adaptation-list li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 14px; top: 32px; bottom: 2px;
+  width: 2px;
+  background: #d7dacd;
+}
+.adaptation-list strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
 
+/* "I wonder" card */
 .wonder {
-  background: #fff6d6;
-  border-radius: 12px;
-  padding: 12px 16px;
-  margin-top: 16px;
+  background: #eefbc4;
+  border: 1.5px solid var(--lime-deep);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  margin-top: 8px;
 }
-.wonder-label { font-weight: bold; }
+.wonder-label { font-weight: 600; }
 .wonder p { margin: 4px 0 0; font-size: 1.1rem; }
 
+/* ---------- Footer ---------- */
 footer {
+  margin: 8px 16px 16px;
+  padding: 18px 20px;
   text-align: center;
-  padding: 16px;
-  font-size: 1.1rem;
-  background: #fff;
-  border-top: 3px dashed var(--accent);
+  font-size: 1.05rem;
+  background: var(--ink);
+  color: #f4f6ee;
+  border-radius: var(--radius-xl);
 }
+footer strong { color: var(--lime); }
 
 .loading, .error { text-align: center; font-size: 1.2rem; }
 .error { color: #b00020; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
