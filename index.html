@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazing Animal Adaptations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Amazing Animal Adaptations</h1>
+    <p class="subtitle">How do animals survive where they live? Click an animal to find out!</p>
+  </header>
+
+  <nav id="habitat-filter" aria-label="Choose a habitat"></nav>
+
+  <main id="habitats">
+    <p class="loading">Loading animals…</p>
+  </main>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close-btn" id="close-btn" aria-label="Close">✕</button>
+      <div class="modal-emoji" id="modal-emoji"></div>
+      <h2 id="modal-title"></h2>
+      <p class="modal-habitat" id="modal-habitat"></p>
+      <p class="modal-env"><strong>Where it lives:</strong> <span id="modal-env"></span></p>
+      <h3>Its adaptations</h3>
+      <ul class="adaptation-list" id="modal-list"></ul>
+      <div class="wonder">
+        <span class="wonder-label">🤔 I wonder…</span>
+        <p id="modal-wonder"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>Adaptation:</strong> a body part or behaviour that helps an animal survive in its environment.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
