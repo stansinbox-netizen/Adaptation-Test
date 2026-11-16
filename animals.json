@@ -28,7 +28,8 @@
               "why": "Spread its weight so it does not fall through thin ice, and work like paddles for swimming."
             }
           ],
-          "wonder": "Why do you think polar bears have small ears?"
+          "wonder": "Why do you think polar bears have small ears?",
+          "image": "images/polar-bear.jpg"
         },
         {
           "name": "Arctic Fox",
@@ -52,7 +53,8 @@
               "why": "It can hear small animals moving under the snow."
             }
           ],
-          "wonder": "What might happen to an arctic fox if the snow came late one year?"
+          "wonder": "What might happen to an arctic fox if the snow came late one year?",
+          "image": "images/arctic-fox.jpg"
         },
         {
           "name": "Walrus",
@@ -72,7 +74,8 @@
               "why": "Keeps it warm in freezing water."
             }
           ],
-          "wonder": "How are the walrus and the polar bear the same?"
+          "wonder": "How are the walrus and the polar bear the same?",
+          "image": "images/walrus.jpg"
         },
         {
           "name": "Snowy Owl",
@@ -96,7 +99,8 @@
               "why": "It can hunt during the long summer days when the sun never sets."
             }
           ],
-          "wonder": "Most owls hunt at night. Why might a snowy owl hunt in the day?"
+          "wonder": "Most owls hunt at night. Why might a snowy owl hunt in the day?",
+          "image": "images/snowy-owl.jpg"
         },
         {
           "name": "Narwhal",
@@ -120,7 +124,8 @@
               "why": "Can dive very deep to find fish and squid."
             }
           ],
-          "wonder": "Why would a fin on its back be a problem for a narwhal?"
+          "wonder": "Why would a fin on its back be a problem for a narwhal?",
+          "image": "images/narwhal.jpg"
         }
       ]
     },
@@ -152,7 +157,8 @@
               "why": "Stop it from sinking into soft sand."
             }
           ],
-          "wonder": "Does a camel's hump hold water? How could you find out?"
+          "wonder": "Does a camel's hump hold water? How could you find out?",
+          "image": "images/camel.jpg"
         },
         {
           "name": "Fennec Fox",
@@ -176,7 +182,8 @@
               "why": "Protect its feet from the burning hot sand."
             }
           ],
-          "wonder": "Compare the fennec fox's ears with the arctic fox's ears. Why are they different?"
+          "wonder": "Compare the fennec fox's ears with the arctic fox's ears. Why are they different?",
+          "image": "images/fennec-fox.jpg"
         },
         {
           "name": "Thorny Devil",
@@ -196,7 +203,8 @@
               "why": "A bump on its neck tricks predators into biting the wrong place."
             }
           ],
-          "wonder": "How else could an animal get water in a desert?"
+          "wonder": "How else could an animal get water in a desert?",
+          "image": "images/thorny-devil.jpg"
         },
         {
           "name": "Scorpion",
@@ -220,7 +228,8 @@
               "why": "Can survive for months without eating."
             }
           ],
-          "wonder": "Why is hiding under a rock a good idea in the desert?"
+          "wonder": "Why is hiding under a rock a good idea in the desert?",
+          "image": "images/scorpion.jpg"
         },
         {
           "name": "Roadrunner",
@@ -240,7 +249,8 @@
               "why": "Spreads its feathers in the morning sun to warm up after a cold night."
             }
           ],
-          "wonder": "Why would a desert bird need to warm up in the morning?"
+          "wonder": "Why would a desert bird need to warm up in the morning?",
+          "image": "images/roadrunner.jpg"
         }
       ]
     },
@@ -268,7 +278,8 @@
               "why": "Tiny plants grow in its fur and help it blend in with the trees."
             }
           ],
-          "wonder": "Why might being slow actually help a sloth stay safe?"
+          "wonder": "Why might being slow actually help a sloth stay safe?",
+          "image": "images/sloth.jpg"
         },
         {
           "name": "Toucan",
@@ -288,7 +299,8 @@
               "why": "Help toucans find each other among the colourful leaves and flowers."
             }
           ],
-          "wonder": "What other animals have beaks shaped for the food they eat?"
+          "wonder": "What other animals have beaks shaped for the food they eat?",
+          "image": "images/toucan.jpg"
         },
         {
           "name": "Poison Dart Frog",
@@ -308,7 +320,8 @@
               "why": "Help it climb on wet leaves."
             }
           ],
-          "wonder": "Why do some animals hide, but this frog wants to be seen?"
+          "wonder": "Why do some animals hide, but this frog wants to be seen?",
+          "image": "images/poison-dart-frog.jpg"
         },
         {
           "name": "Jaguar",
@@ -328,7 +341,8 @@
               "why": "Can hunt fish and turtles in rivers."
             }
           ],
-          "wonder": "How do a jaguar's spots help it hunt?"
+          "wonder": "How do a jaguar's spots help it hunt?",
+          "image": "images/jaguar.jpg"
         },
         {
           "name": "Orangutan",
@@ -348,7 +362,8 @@
               "why": "Builds a new bed of leaves high in the trees every night."
             }
           ],
-          "wonder": "Why might an orangutan sleep in the trees instead of on the ground?"
+          "wonder": "Why might an orangutan sleep in the trees instead of on the ground?",
+          "image": "images/orangutan.jpg"
         }
       ]
     },
@@ -380,7 +395,8 @@
               "why": "Helps it find food from far away."
             }
           ],
-          "wonder": "Why are many fast swimmers shaped like a shark?"
+          "wonder": "Why are many fast swimmers shaped like a shark?",
+          "image": "images/shark.jpg"
         },
         {
           "name": "Octopus",
@@ -404,7 +420,8 @@
               "why": "Grip rocks and catch food."
             }
           ],
-          "wonder": "Which adaptation would you most like to have? Why?"
+          "wonder": "Which adaptation would you most like to have? Why?",
+          "image": "images/octopus.jpg"
         },
         {
           "name": "Sea Turtle",
@@ -428,7 +445,8 @@
               "why": "Special 'tears' remove extra salt from its body."
             }
           ],
-          "wonder": "How are a sea turtle's flippers different from a tortoise's legs?"
+          "wonder": "How are a sea turtle's flippers different from a tortoise's legs?",
+          "image": "images/sea-turtle.jpg"
         },
         {
           "name": "Jellyfish",
@@ -448,7 +466,8 @@
               "why": "Drifts with the ocean currents to save energy."
             }
           ],
-          "wonder": "A jellyfish has no brain. How do you think it survives?"
+          "wonder": "A jellyfish has no brain. How do you think it survives?",
+          "image": "images/jellyfish.jpg"
         },
         {
           "name": "Dolphin",
@@ -472,9 +491,132 @@
               "why": "Pods work together to hunt and stay safe."
             }
           ],
-          "wonder": "How are a dolphin and a shark the same? How are they different?"
+          "wonder": "How are a dolphin and a shark the same? How are they different?",
+          "image": "images/dolphin.jpg"
         }
       ]
+    }
+  ],
+  "credits": [
+    {
+      "animal": "Polar Bear",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg"
+    },
+    {
+      "animal": "Arctic Fox",
+      "author": "Jonatan Pie (unsplash.com/@r3dmax)",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vulpes_lagopus_in_Iceland_(cropped_3).jpg"
+    },
+    {
+      "animal": "Walrus",
+      "author": "Nixette",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Walrus_in_the_Russian_Arctic_National_Park,_Novaya_Zemlya_2015-2.jpg"
+    },
+    {
+      "animal": "Snowy Owl",
+      "author": "Danny Williams",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bubo_scandiacus_portrait.jpg"
+    },
+    {
+      "animal": "Narwhal",
+      "author": "пресс-служба ПАО \"Газпром нефть\"",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg"
+    },
+    {
+      "animal": "Camel",
+      "author": "Florian Prischl",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg"
+    },
+    {
+      "animal": "Fennec Fox",
+      "author": "Drew Avery",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Vulpes_zerda.jpg"
+    },
+    {
+      "animal": "Thorny Devil",
+      "author": "Bäras (talk · contribs)",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Thornydevil.jpg"
+    },
+    {
+      "animal": "Scorpion",
+      "author": "Shantanu Kuveskar",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Scorpion_Photograph_By_Shantanu_Kuveskar.jpg"
+    },
+    {
+      "animal": "Roadrunner",
+      "author": "Polinova",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Greater_Roadrunner_Tingley_Beach.jpg"
+    },
+    {
+      "animal": "Sloth",
+      "author": "Stefan Laube (Tauchgurke)",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Bradypus.jpg"
+    },
+    {
+      "animal": "Toucan",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_(cropped).jpg"
+    },
+    {
+      "animal": "Poison Dart Frog",
+      "author": "Pixeltoo",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue-poison.dart.frog.and.Yellow-banded.dart.frog.arp.jpg"
+    },
+    {
+      "animal": "Jaguar",
+      "author": "USFWS",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Standing_jaguar.jpg"
+    },
+    {
+      "animal": "Orangutan",
+      "author": "Nanosanchez",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tanjung_Puting30477.jpg"
+    },
+    {
+      "animal": "Shark",
+      "author": "Pterantula (Terry Goss) at en.wikipedia",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:White_shark.jpg"
+    },
+    {
+      "animal": "Octopus",
+      "author": "albert kok",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+    },
+    {
+      "animal": "Sea Turtle",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg"
+    },
+    {
+      "animal": "Jellyfish",
+      "author": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg"
+    },
+    {
+      "animal": "Dolphin",
+      "author": "NASA",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg"
     }
   ]
 }
